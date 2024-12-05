@@ -9,6 +9,9 @@ const calistoga = Calistoga({ subsets: ['latin'], variable: "--font-serif", weig
 export const metadata: Metadata = {
   title: "A software developer",
   description: "Crafting websites that are beautiful, compelling & performant for disruptive startups and creators.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
