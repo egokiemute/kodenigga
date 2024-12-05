@@ -46,20 +46,20 @@ export const HeroSection = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <a
-            href="https://github.com/egokiemute"
+            href="https://docs.google.com/document/d/1CC8IsiA3_rZtvzeEG5cMskKps351PSnAUdUrxdJ6BUY/edit?usp=sharing"
             target="_blank"
             className="inline-flex items-center gap-2 border border-black/15 px-6 h-12 rounded-xl cursor-pointer"
           >
-            <span className="font-semibold">Explore My Work</span>
+            <span className="font-semibold">Check my Resume</span>
             <Image src={memojiImage} alt="My picture" className="size-[24px]" />
           </a>
           <a
-            href="https://x.com/kodenigga"
+            href="mailto:ego.okiemute@gmail.com"
             target="_blank"
             className="text-gray-200 h-12 px-6 inline-flex items-center bg-black rounded-xl gap-2 border border-black cursor-pointer"
           >
             <span className="font-semibold">👋</span>
-            <span className="font-semibold">Let&apos;s Work</span>
+            <span className="font-semibold">Send an Email</span>
           </a>
         </div>
       </div>
