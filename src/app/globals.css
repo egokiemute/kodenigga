@@ -8,6 +8,6 @@
     }
 
     .hero-ring {
-        @apply absolute inset-0 border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-gray-100/80 shadow-[0_0_80px_inset] shadow-gray-100/80 -z-20;
+        @apply absolute inset-0 border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-gray-100/80 shadow-[0_0_80px_inset] shadow-gray-100/80 -z-20;
     }
 }

@@ -16,13 +16,13 @@ export const HeroSection = () => {
           backgroundImage: `url(${grainImage})`,
         }}
       ></div>
-      <div className="size-[1400px] hero-ring"></div>
-      <div className="size-[1200px] hero-ring"></div>
-      <div className="size-[900px] hero-ring"></div>
-      <div className="size-[680px] hero-ring"></div>
-      <HeroOrbit size={800} rotation={5}>
+      {/* <div className="size-[1400px] hero-ring"></div> */}
+      {/* <div className="size-[1200px] hero-ring"></div> */}
+      {/* <div className="size-[900px] hero-ring"></div> */}
+      {/* <div className="size-[680px] w-[100vw] h-[100vh] hero-ring"></div> */}
+      {/* <HeroOrbit size={800} rotation={5}>
         <StarIcon className="size-20" />
-      </HeroOrbit>
+      </HeroOrbit> */}
       <div className="container">
         <div className="flex flex-col items-center gap-5">
           <Image
@@ -46,7 +46,7 @@ export const HeroSection = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <a
-            href="https://github.com/Matthewokiemute"
+            href="https://github.com/egokiemute"
             target="_blank"
             className="inline-flex items-center gap-2 border border-black/15 px-6 h-12 rounded-xl cursor-pointer"
           >
