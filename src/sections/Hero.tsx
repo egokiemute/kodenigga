@@ -37,7 +37,7 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            I'm Okiemute G. E. a Software Developer
+            I&apos;m Okiemute G. E. a Software Developer
           </h1>
           <p className="text-center mt-4 text-gray-500 md:text-lg">
             Crafting websites that are beautiful, compelling & performant for
