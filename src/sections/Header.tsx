@@ -18,6 +18,9 @@ export const Header = () => {
         >
           Contact
         </a>
+        <a href="https://github.com/egokiemute" className="nav-item">
+          Check my GitHub
+        </a>
       </nav>
     </div>
   );
