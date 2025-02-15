@@ -2,6 +2,7 @@ import darkSaasLandingPage from "@/assets/images/flextable.png";
 import lightSaasLandingPage from "@/assets/images/vimerge.png";
 import aiStartupLandingPage from "@/assets/images/lyde.png";
 import snowWiseWebsite from "@/assets/images/snowwise.png";
+import christakeWebsite from "@/assets/images/christak.png";
 import grainImage from "@/assets/images/grain.jpg";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -55,6 +56,16 @@ const portfolioProjects = [
     ],
     link: "https://snowwiseltd.co.uk/",
     image: snowWiseWebsite,
+  },
+  {
+    company: "Christak Innovations Limited",
+    year: "2024",
+    title: "We're committed to elevating lives, spaces, and supply chains through innovative solutions and unparalleled service.",
+    results: [
+      { title: "Strengthened the business by refining digital presence" },
+    ],
+    link: "https://www.christak.co.uk/",
+    image: christakeWebsite,
   },
 ];
 
