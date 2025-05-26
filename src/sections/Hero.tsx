@@ -37,8 +37,8 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-2xl mx-auto">
           <div className="max-w-xl mx-auto text-center mt-8">
-            <h1 className="font-sans text-3xl md:text-5xl text-center tracking-wide">
-            I&apos;m Egokiphovwen G. Okiemute
+            <h1 className="font-serif text-3xl md:text-5xl text-center tracking-wide">
+            I&apos;m E. G. Okiemute
           </h1>
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-1 tracking-wide">
             A Software Developer (Frontend Developer)
