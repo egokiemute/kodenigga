@@ -38,7 +38,7 @@ export const Footer = () => {
               </Link>
             ))}
           </nav>
-          <div className="text-sm opacity-30">&copy; 2024. All rights Reserved</div>
+          <div className="text-sm opacity-30">&copy; {new Date().getFullYear()}. All rights Reserved</div>
         </div>
       </div>
     </footer>
