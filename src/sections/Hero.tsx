@@ -35,10 +35,15 @@ export const HeroSection = () => {
             <div className="text-sm text-white">Available for new projects</div>
           </div>
         </div>
-        <div className="max-w-lg mx-auto">
-          <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            I&apos;m Okiemute G. E. a Software Developer
+        <div className="max-w-2xl mx-auto">
+          <div className="max-w-xl mx-auto text-center mt-8">
+            <h1 className="font-serif text-3xl md:text-5xl text-center tracking-wide">
+            I&apos;m Egokiphovwen G. Okiemute
           </h1>
+          <h1 className="font-serif text-3xl md:text-5xl text-center mt-1 tracking-wide">
+            A Software Developer (Frontend Developer)
+          </h1>
+          </div>
           <p className="text-center mt-4 text-gray-500 md:text-lg">
             Crafting websites that are beautiful, compelling & performant for
             disruptive startups and creators.
