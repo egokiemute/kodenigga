@@ -1,11 +1,8 @@
 import Image from "next/image";
 import memojiImage from "@/assets/images/memoji-computer.png";
 import memojiImage2 from "@/assets/images/plain-me.jpg";
-import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
-import StarIcon from "@/assets/icons/star.svg";
-import HeroOrbit from "@/components/HeroOrbit";
-import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
 
 export const HeroSection = () => {
   return (
@@ -55,16 +52,18 @@ export const HeroSection = () => {
             target="_blank"
             className="inline-flex items-center gap-2 border border-black/15 px-6 h-12 rounded-xl cursor-pointer"
           >
-            <span className="font-semibold">Check my Resume</span>
             <Image src={memojiImage} alt="My picture" className="size-[24px]" />
+            <span className="font-semibold">Check my Resume</span>
           </a>
           <a
-            href="mailto:ego.okiemute@gmail.com"
+            href="https://github.com/egokiemute"
             target="_blank"
             className="text-gray-200 h-12 px-6 inline-flex items-center bg-black rounded-xl gap-2 border border-black cursor-pointer"
           >
-            <span className="font-semibold">👋</span>
-            <span className="font-semibold">Send an Email</span>
+            <span className="font-semibold">
+              <FaGithub className="size-5" />
+            </span>
+            <span className="font-semibold">View my GitHub</span>
           </a>
         </div>
       </div>
